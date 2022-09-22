@@ -1,0 +1,76 @@
+@font-face {
+    font-family: "digit";
+    src: url("digital-7.ttf") format("truetype");
+}
+@font-face {
+    font-family:"dope" ;
+    src: url("Dopestyle.ttf") format("truetype");
+}
+
+body{
+    background-color: whitesmoke;
+}
+.calculator {
+    width: 28.4vw;
+    margin: auto;
+    background-color: black;
+    border-radius: 20px;
+    box-shadow: 7px 9px 12px -7px black;
+}
+
+.calculator .band {
+    background-color: #F8BB44;
+    height: 35px;
+    text-align: right;
+    color:black;
+    font-size: 25px;
+    padding-right: 15px;
+    font-family: "dope";
+    text-shadow: 1px 1px 1px white;
+}
+
+input[type=button] {
+    height: 89px;
+    width: 136px;
+    margin-bottom: 1px;
+    background-color: #4a4a4a;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    border-color: black;
+    margin-left: -2px;
+    margin-right: -1px; 
+    text-shadow: 1.5px 1px 0px black;
+}
+
+input[type=text] {
+    margin: auto;
+    width: 99%;
+    height: 100px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: black;
+    border: none;
+    font-size: 50px;
+    color: white;
+    font-family: "digit";
+    padding-left: 2px;
+
+}
+
+article {
+    text-align: center;
+}
+
+.calculator > article:nth-child(7) > input:nth-child(1) {
+    width: 100%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: #F50019;
+    }
+
+.calculator > article:nth-child(6) > input[type=button]:nth-child(3) {
+    background-color: #F8BB44;
+    color: black;
+    text-shadow: 1.5px 1px 0px white;
+    }
